@@ -75,8 +75,8 @@ def draw_window(win, ants, obs, flags, wall, alive, madeit):
 #
 # main()
 
-#Map 1
 obs = []
+#Map 1
 for i in range(15):
     o = (Obstacle(random.randrange(150,WIN_WIDTH-150,30),random.randrange(150,WIN_HEIGHT-150,30)))
     obs.append(o)
@@ -219,7 +219,7 @@ def run(config_path):
     for f in checkpoints:
         if f.find('neat-checkpoint-') != -1:
             k = max(int(k),int(f[-1]))
-            print(k)
+            #print(k)
 
     if k:
         name = 'neat-checkpoint-'+str(k)
