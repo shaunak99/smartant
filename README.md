@@ -28,4 +28,7 @@ This map generates a random set of obstacles that the ants must navigate across 
 The 'first sucess' checkpoint is saved after training on Map 2 and then used in Map 1.
 
 ###### Map 1
-<img src="map1.gif" height="50%" width="50%"> <img src="map2.gif" title="Map2" height="50%" width="50%">
+<img src="map1.gif" height="50%" width="50%"> 
+
+###### Map 2
+<img src="map2.gif" title="Map2" height="50%" width="50%">
